@@ -1,0 +1,146 @@
+
+muramasa.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+calf_L
+  rotate: false
+  xy: 105, 215
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+calf_R
+  rotate: true
+  xy: 105, 197
+  size: 15, 38
+  orig: 15, 38
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 3, 32
+  size: 22, 35
+  orig: 22, 35
+  offset: 0, 0
+  index: -1
+flower
+  rotate: false
+  xy: 3, 3
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+foot_L
+  rotate: true
+  xy: 38, 105
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+foot_R
+  rotate: false
+  xy: 163, 217
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+fore_L
+  rotate: false
+  xy: 3, 70
+  size: 21, 38
+  orig: 21, 38
+  offset: 0, 0
+  index: -1
+fore_R
+  rotate: true
+  xy: 43, 152
+  size: 19, 37
+  orig: 19, 37
+  offset: 0, 0
+  index: -1
+hair_B
+  rotate: false
+  xy: 3, 111
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+hair_BF
+  rotate: false
+  xy: 91, 178
+  size: 36, 16
+  orig: 36, 16
+  offset: 0, 0
+  index: -1
+hand_L
+  rotate: false
+  xy: 27, 96
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+hand_R
+  rotate: false
+  xy: 146, 207
+  size: 14, 25
+  orig: 14, 25
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 3, 152
+  size: 37, 42
+  orig: 37, 42
+  offset: 0, 0
+  index: -1
+hip
+  rotate: false
+  xy: 38, 124
+  size: 32, 25
+  orig: 32, 25
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 73, 140
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+thigh_L
+  rotate: true
+  xy: 146, 235
+  size: 18, 46
+  orig: 18, 46
+  offset: 0, 0
+  index: -1
+thigh_R
+  rotate: true
+  xy: 43, 174
+  size: 20, 45
+  orig: 20, 45
+  offset: 0, 0
+  index: -1
+upper_L
+  rotate: true
+  xy: 195, 239
+  size: 14, 23
+  orig: 14, 23
+  offset: 0, 0
+  index: -1
+upper_R
+  rotate: true
+  xy: 221, 241
+  size: 12, 24
+  orig: 12, 24
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 3, 197
+  size: 99, 56
+  orig: 99, 56
+  offset: 0, 0
+  index: -1

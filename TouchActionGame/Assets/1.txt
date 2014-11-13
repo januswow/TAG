@@ -1,0 +1,106 @@
+		if(input)
+		{
+				Player.SetInput(input);
+		}
+/////////////////////////////////////////////////////////
+void Start()
+{
+	m_state = idle;
+	Player.play(idle);
+}
+
+void PlayAction( input )
+{
+		switch (m_state) {
+		case AnimState.Ready :
+			SetAnimation(0, "ready", true, false);
+			if( input == attack )
+			{
+				setAction(attack)
+				m_state = attack;
+			}
+			break;
+		case AnimState.Forward :
+			Debug.Log("FORWARD IN SM");
+			SetAnimation(0, "forward", true, true);
+			break;
+		case AnimState.Backward :
+			break;
+		case AnimState.DashForward :
+			break;
+		case AnimState.DashBackward :
+			SetAnimation(0, "dashBackward", false, true);
+			break;
+		case AnimState.Jump :
+			m_nextState = idle
+			SetAnimation(0, "jump", false, true);
+			if( input == attack )
+			{
+				m_nextState = attack;
+				addAction(attack);
+			}
+			else if( def )
+			{
+				m_nextState = def;
+			}
+			break;
+		case AnimState.AirJump :
+			m_nextState = idle
+			SetAnimation(0, "jump", false, true);
+			break;
+		case AnimState.AttackUp :
+			
+			Debug.Log("attackUp");
+			SetAnimation(0, "attackForward", false, true);
+			if( Remain < 0.5 )
+			{
+				m_nextState = jump;
+			}
+			
+			break;
+		case AnimState.AttackDn :
+			Debug.Log("attackDn");
+			SetAnimation(0, "attackForward", false, true);
+			break;
+		case AnimState.AttackFw :
+			Debug.Log("attackFw");
+			SetAnimation(0, "attackForward", false, true);
+			break;
+		case AnimState.AttackBw :
+			SetAnimation(0, "attackForward", false, true);
+			break;
+		case def:
+			if()
+			{
+				m_nextState = def;
+			}
+		}
+}
+		
+		aninimation.end()
+		{
+			if(m_nextState != STATE_MAX)
+				m_state = m_nextState;
+		}
+		
+		
+		
+update()
+}
+case init:
+	a = a
+	b = b\
+	state = Play
+	tableinfo()
+	
+case play:
+	if(tableReady)
+	if( m_isInit == false )
+	{
+		c = c 
+		d = d
+		m_isInit = true;
+	}
+case end:
+}
+	
